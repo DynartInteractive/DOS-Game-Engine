@@ -234,7 +234,7 @@ cd ..\TESTS && tpc -U..\UNITS VGATEST.PAS
 - SPX files use `<sprite-xml>` root, contain `<image>` and `<sprite>` tags
 - SPX sprites support: default width/height on `<sprite>`, per-frame offset-x/offset-y, per-frame duration
 - Image paths in SPX files are relative to the SPX file location
-- See DOCS\RESMAN.md for XML format
+- See DOCS\ENGINE\RESMAN.md for XML format
 
 **BASEGAME.PAS** - DOS Game Engine Core (2025)
 - TBaseGame: Main game object, Init(AConfig: PConfig; ResXmlPath: String)
